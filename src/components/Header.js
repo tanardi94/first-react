@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <h2>mencoba membuat kelas header disini</h2>
+        <h2>Daftar makanan terfavorit di Indonesia</h2>
       </div>
     );
   }

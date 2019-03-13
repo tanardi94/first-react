@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Header";
+import Header from "./components/Header";
+import List from "./components/List";
 
 class App extends Component {
   render() {
@@ -13,16 +14,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <Header />
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <h1>Mencoba belajar react deh</h1>
-          <h2>Wah bisa langsung update tuh</h2>
+          <List />
         </header>
       </div>
     );
