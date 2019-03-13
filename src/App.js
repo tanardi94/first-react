@@ -13,7 +13,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Header />
+          <Header list="berikut 5 makanan terbaik versi saya sih:" />
           <List />
         </header>
       </div>
